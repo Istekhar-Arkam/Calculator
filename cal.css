@@ -51,3 +51,69 @@ button {
 .operator {
   color: #6dee0a;
 }
+
+ /* @media (min-width:320px) and (max-width:840px){
+  .calculator{
+margin:0 20px;
+
+}
+  .calculator button{
+width:60px;
+  }
+  .calculator div{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .calculator input{
+    margin-bottom: 18px;
+  }
+}  */
+
+/* //@media (max-width:355px){
+  .calculator{
+margin:0 15px;
+width:80%;
+
+}
+  .calculator button{
+width:45px;
+  }
+  .calculator div{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .calculator input{
+    margin-bottom: 18px;
+    width:96%;
+  }
+} */
+
+@media (min-width:850px){
+  .calculator{
+margin:0 20px;
+width:100vw;
+height:90vh;
+}
+  .calculator button{
+width:150px;
+height:150px;
+margin:20px 0;
+font-size: 3.5rem;
+  }
+  .calculator div{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  .calculator input{
+    margin-bottom: 18px;
+    width:97%;
+    height:200px;
+    font-size: 5.5rem;
+  }
+}
